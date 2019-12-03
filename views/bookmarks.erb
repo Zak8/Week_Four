@@ -1,1 +1,4 @@
-"https://www.youtube.com"
+<h1>Bookmarks</h1>
+<ol>
+  <%= @bookmarks.map{ |bmark| "<li>" + bmark + "</li>" }.join("") %>
+</ol>
